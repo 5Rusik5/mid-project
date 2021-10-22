@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+}
+/* Header */
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header_main{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header_logotip{
+    display: inline-block;
+}
+.logotip{
+    margin-top: 5px;
+    margin-left: 80px;
+    align-content: center;
+}
+.header_buttons h3{
+    display: flex;
+    
+}
+.header_buttons a{
+    margin-left: 100px;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header_buttons a:hover{
+    color: white;
+    background-color:red;
+}
+.header_buttons a:active{
+    color: black;
+}
+
+.header_num{
+    margin-left: 230px;
+    font-family: 'TypeScreen',Arial,sans-serif;
+    font-size: 13px;
+    text-align: right;
+
+}
+/* //////// */
+
+
+/*Welcome*/
+.welcome{
+    background: url("https://novokuban.ru/800/600/https/www.motoringresearch.com/wp-content/uploads/2019/01/2019_TOYOTA_RAV4_ext_05-1.jpg") no-repeat center top;
+    background-size: 100%;
+    width: 1519px;
+    height: 623px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.welcome h3{
+        font-size: 30px;
+        color: white;
+        transform: translateY(50px);
+        margin-left: 100px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* //////// */
+
+
+/* Centre of main page */
+.main_card{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 356px;
+    margin: 40px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.card__img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1;
+
+    filter:brightness(.5)
+}
+
+.card__info {
+    position: relative; 
+    top: -100%;
+    left: 0;    
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card__info:hover{
+    cursor: pointer;
+    transform: scale(1.13);
+}
+
+.card_info_img{
+    transform: translateY(55px);
+}
+.text_card{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-style: italic;
+}
+/* /////////////// */
+
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    padding: 50px;
+    background-color: #333;
+}
+.footer_col{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+.footer_txt{
+    font-family: Louis,sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+}
+  
+.footer_link{
+    display: flex;
+    font-family: Louis,sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 10px 0 0 15px;
+    font-weight: 500;
+}
+.footer_img{
+    margin: 20px;
+    color: white;
+}
+.footer_img a{
+    padding: 10px;
+    color: white;
+}
+.footer_black{
+    width: 100%;
+    background-color:black;
+    color:white;
+    height:50px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* ///////////// */
+
+/* Centre of model */
+.centre_models{
+    background-image: url("https://cutewallpaper.org/21/white-background-1080/malaysia-coins-falling-slow-motion-on-white-background-.png");
+}
+.inscription_models{
+    font-size: 42px;
+    margin-left: 130px;
+    transform: translateY(20px);
+}
+.row_model{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.row_model img{
+    width:300px;
+}
+.row_model strong{
+    color: black;
+}
+.row_model span{
+    color: grey;
+}
+/* //////////////// */
+
+/* Centre of new */
+.new_img{
+    padding-top: 100px;
+    background: url("https://t1-cms-1.images.toyota-europe.com/toyotaone/kzru/LC300_press_rus_1_tcm-3051-2300694.jpg") no-repeat center top;
+    background-size: 100%;
+    width: 100%;
+    height: 623px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.new_centre_row {
+    text-align: center;
+    font-size: 30px;
+}
+.new_main_card{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.new_card{
+    position: relative;
+    width: 500px;
+    height: 356px;
+    margin: 5px;
+}
+.new_card__img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1;
+}
+
+.new_card__info {
+    position: relative; 
+    top: -100%;
+    left: 0;    
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.new_text_card{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-style: italic;
+    transform: translateY(100px);
+}
+.opisanie{
+    margin-top: 100px;
+}
+.opisanie h1{
+    font-family: "T1 Body Font",Arial,Helvetica,sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.paragraf{
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 25px;
+}
+/* ///////////// */
+
+/* Map */
+.contacts_section{
+    background:url("https://wallpaperaccess.com/full/1876821.jpg");
+}
+.contacts_main{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(50px);
+    height: 700px;
+}
+.contacts_font{
+    font-size: 40px;
+    transform: translateY(20px);
+    margin-left: 50px;
+}
+.map{
+    display: inline;
+    float: left;
+    
+}
+.contacts_contact{
+    display: inline;
+    float: left;
+    margin-left: 50px;
+    line-height: 2.5;
+}
+.contacts_contact strong{
+    font-size: 25px;
+}

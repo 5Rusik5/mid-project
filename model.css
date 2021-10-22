@@ -1,0 +1,54 @@
+.nav-item{
+    margin-left: 100px;
+    width:500;
+}
+.center_cars{
+    padding-top:15px;
+}
+.ccc{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.model_font{
+    font-size: 42px;
+    font-family: 'TypeScreen',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.model_cars{
+    display: inline;
+    float: left;
+    max-width: 760px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.haracter{   
+    display: inline;
+    float: left;
+    max-width: 360px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2.5;
+}
+
+.nazvanie{
+    text-transform: uppercase;
+    font-size: 30px;  
+    font-weight: bold;  
+}
+.price{
+   font-weight: bold;
+   font-size: 19px;
+}
+.opi{
+    display: inline;
+}
+.oformit{
+    margin-left: 200px;
+}
